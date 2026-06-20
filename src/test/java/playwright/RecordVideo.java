@@ -26,12 +26,16 @@ public class RecordVideo {
 
 		Page page = videoSettingd.newPage();
 	
-		page.navigate("https://www.amazon.in/");
+		page.navigate("https://www.amazon.in/");	
 		page.locator("//a[normalize-space()='MX Player']").click();
 		String mx = page.locator("//span[contains(@class,'AppNavbar_active__croed AppNavbar_navItem__SnsLh')]").textContent();
 		System.out.println(mx);
+		page.goBack();
+		page.locator("//a[normalize-space()='Sell']").click();
+		page.goBack();
 		
-	page.close()
+		
+	page.close();
 ;		
 		
 
