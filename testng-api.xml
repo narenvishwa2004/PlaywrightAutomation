@@ -4,6 +4,7 @@
     <test name="API Tests">
         <packages>
             <package name="api"/>
+            <package name="ui"/>
         </packages>
     </test>
 </suite>
