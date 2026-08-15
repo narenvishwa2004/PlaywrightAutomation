@@ -1,6 +1,1 @@
-target/  
-.settings/  
-.classpath  
-.project  
-test-output/  
-videos/ 
+/target/`n/.settings/`n/.project`n/.classpath`n/test-output/`n*.log
