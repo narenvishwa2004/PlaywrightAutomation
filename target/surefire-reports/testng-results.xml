@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-15T23:54:55 IST" name="API Test Suite" finished-at="2026-08-15T23:55:01 IST" duration-ms="5613">
+  <suite started-at="2026-11-17T21:31:04 IST" name="Surefire suite" finished-at="2026-11-17T21:31:07 IST" duration-ms="3422">
     <groups>
     </groups>
-    <test started-at="2026-08-15T23:54:55 IST" name="API Tests" finished-at="2026-08-15T23:55:01 IST" duration-ms="5613">
+    <test started-at="2026-11-17T21:31:04 IST" name="Surefire test" finished-at="2026-11-17T21:31:07 IST" duration-ms="3422">
       <class name="api.ApiTestSuite">
-        <test-method signature="verifyGetUserSuccess()[pri:0, instance:api.ApiTestSuite@18ce0030]" started-at="2026-08-15T23:54:55 IST" name="verifyGetUserSuccess" finished-at="2026-08-15T23:55:00 IST" duration-ms="4817" status="PASS">
+        <test-method signature="verifyGetUserSuccess()[pri:0, instance:api.ApiTestSuite@4461c7e3]" started-at="2026-11-17T21:31:04 IST" name="verifyGetUserSuccess" finished-at="2026-11-17T21:31:07 IST" duration-ms="3014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGetUserSuccess -->
       </class> <!-- api.ApiTestSuite -->
       <class name="api.Sample1">
-        <test-method signature="verifyCreatePostSuccess()[pri:0, instance:api.Sample1@63a65a25]" started-at="2026-08-15T23:55:00 IST" name="verifyCreatePostSuccess" finished-at="2026-08-15T23:55:01 IST" duration-ms="701" status="PASS">
+        <test-method signature="verifyCreatePostSuccess()[pri:0, instance:api.Sample1@731f8236]" started-at="2026-11-17T21:31:07 IST" name="verifyCreatePostSuccess" finished-at="2026-11-17T21:31:07 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreatePostSuccess -->
       </class> <!-- api.Sample1 -->
-    </test> <!-- API Tests -->
-  </suite> <!-- API Test Suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
